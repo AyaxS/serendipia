@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: local("MyriadPro"), url("../fonts/ok/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Light';
+  src: local("Rubik-Light"), url("../fonts/ok/Rubik-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: local("Rubik-Medium"), url("../fonts/ok/Rubik-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Regular';
+  src: local("Rubik-Regular"), url("../fonts/ok/Rubik-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p,
+span,
+input {
+  font-family: 'Rubik-Light';
+}
+
+button {
+  font-family: 'MyriadPro-Regular';
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rubik-Regular';
+}
+
 #wrapper .s_content-banner {
   display: block;
   width: 100%;
@@ -16,6 +61,7 @@
 
 #wrapper .s_content-banner .s_banner-body .s-title {
   letter-spacing: 1.5px;
+  margin: 60px 0px 40px 0px;
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form .s_form-background {
@@ -159,11 +205,16 @@
   background-image: -o-linear-gradient(left, #ffe2ff, #ffd1ff, #ffc0ff, #ffaeff, #ff9bfe);
   background-image: linear-gradient(to right, #ffe2ff, #ffd1ff, #ffc0ff, #ffaeff, #ff9bfe);
   border-radius: 30px;
-  width: 120px;
+  width: 150px;
   margin: 0 auto;
   display: block;
   opacity: 0.8;
   margin-top: 60px;
+  font-size: 20px;
+  padding-top: 8px;
+  -webkit-transition: ease 0.5s;
+  -o-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form form button:hover {
