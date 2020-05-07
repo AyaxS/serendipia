@@ -234,3 +234,73 @@ h4 {
   -ms-flex-align: center;
   align-items: center;
 }
+
+#wrapper .s-content_separator {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 12px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffd8c6), color-stop(50%, #f4bcde), to(#8fd0f1));
+  background: -webkit-linear-gradient(left, #ffd8c6 0%, #f4bcde 50%, #8fd0f1 100%);
+  background: -o-linear-gradient(left, #ffd8c6 0%, #f4bcde 50%, #8fd0f1 100%);
+  background: linear-gradient(to right, #ffd8c6 0%, #f4bcde 50%, #8fd0f1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd8c6', endColorstr='#8fd0f1', GradientType=1 );
+}
+
+#wrapper .s-content_areas {
+  position: relative;
+  display: block;
+}
+
+#wrapper .s-content_areas .s-area-title {
+  text-align: center;
+  padding: 60px 0px 80px 0px;
+}
+
+#wrapper .s-content_areas .s-area-title .s-title {
+  font-size: 28px;
+}
+
+#wrapper .s-content_areas .s-area-title .s-flag {
+  background-color: #12113A;
+  color: #FFBADD;
+  font-size: 24px;
+  font-family: 'Rubik-Regular';
+  padding: 0px 8px;
+  border-radius: 8px;
+  margin: 0px 0px 20px 0px;
+  display: inline-block;
+}
+
+#wrapper .s-content_areas .s-area-title .s-paragraph {
+  font-size: 14px;
+  margin: 0px;
+}
+
+#wrapper .s-content_areas .s-content_ciclo {
+  position: relative;
+  background-image: url(../img/1x/ciclo.png);
+  width: 800px;
+  margin: 0 auto;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#wrapper .s-content_areas .s-content_ciclo .s-title {
+  font-family: 'Rubik-Medium';
+  color: #8CD1F2;
+  background-color: #14023B;
+  font-size: 20px;
+  letter-spacing: .5px;
+  display: block;
+  max-width: 320px;
+  text-align: center;
+  padding: 1px 0px;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  right: 0;
+}
