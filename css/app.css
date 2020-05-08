@@ -279,12 +279,13 @@ h4 {
 
 #wrapper .s-content_areas .s-content_ciclo {
   position: relative;
-  background-image: url(../img/1x/ciclo.png);
+  background-image: url(../img/1x/ciclo-2.png);
   width: 800px;
   margin: 0 auto;
-  height: 400px;
+  height: 260px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 40px;
 }
 
 #wrapper .s-content_areas .s-content_ciclo .s-title {
@@ -303,4 +304,26 @@ h4 {
   top: -6px;
   left: 0;
   right: 0;
+}
+
+#wrapper .s-content_areas .s-content_ciclo .s-ciclo-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+
+#wrapper .s-content_areas .s-content_ciclo .s-ciclo-points .s-icon {
+  width: 80px;
+}
+
+#wrapper .s-content_areas .s-content_ciclo .s-ciclo-points .s-icon img {
+  width: 100%;
 }
