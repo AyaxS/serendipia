@@ -605,18 +605,25 @@ h4 {
 
 #wrapper .s_content-footer .s_trama-left {
   position: absolute;
-  top: -500px;
-  left: -180px;
   width: 50%;
   height: 100%;
+  background-image: url(../img/SVG/trama-left.svg);
+  background-attachment: fixed;
+  background-position: -15% 240%;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
 #wrapper .s_content-footer .s_trama-right {
   position: absolute;
-  bottom: -120px;
-  right: -180px;
+  right: 0px;
   width: 50%;
   height: 100%;
+  background-image: url(../img/SVG/trama-right.svg);
+  background-attachment: fixed;
+  background-position: 120% -1230%;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
 #wrapper .s_content-footer .s_content-preguntas {
