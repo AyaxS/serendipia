@@ -13,7 +13,54 @@ $( document ).ready(function() {
         autoplay: true,
   		autoplaySpeed: 5000,
 		//fade: false,
-        dots: false
+		dots: false,
+		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+				slidesToScroll: 1,
+				slidesToShow: 2
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				slidesToScroll: 1,
+				slidesToShow: 1
+			  }
+			}
+		  ]
+	});
+	
+	$('.s_content-description').slick({
+        arrows: false,
+        cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+        prevArrow: '<span class="slick-prev"><img src="./img/1x/arrow-left.png" alt=""></span>',
+      	nextArrow: '<span class="slick-next"><img src="./img/1x/arrow-right.png" alt=""></span>',
+        slidesToShow: 4,
+        infinite: false,
+        autoplay: false,
+  		autoplaySpeed: 5000,
+		//fade: false,
+		dots: false,
+		responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+				arrows: true,
+				slidesToScroll: 1,
+				slidesToShow: 2
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				arrows: true,
+				slidesToScroll: 1,
+				slidesToShow: 1
+			  }
+			}
+		]
     });
 
     $('.ancla').click(function(e){				
