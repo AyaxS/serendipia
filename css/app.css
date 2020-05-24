@@ -60,9 +60,76 @@ h4 {
   z-index: 1;
 }
 
-#wrapper .s_content-banner .s_banner-body .s-title {
-  letter-spacing: 1.5px;
-  margin: 60px 0px 40px 0px;
+@media (min-width: 20em) {
+  #wrapper .s_content-banner .s_banner-body .s-logo {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 46.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-logo {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-logo {
+    width: auto;
+  }
+}
+
+@media (min-width: 20em) {
+  #wrapper .s_content-banner .s_banner-body .s-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 46.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-title {
+    font-size: 28px;
+    letter-spacing: normal;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+    font-size: normal;
+  }
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-title {
+    font-size: 2.5rem;
+    letter-spacing: normal;
+    margin: 40px 0px 40px 0px;
+  }
+}
+
+@media (min-width: 81.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-title {
+    letter-spacing: 1.5px;
+  }
+}
+
+@media (min-width: 20em) {
+  #wrapper .s_content-banner .s_banner-body .s-text {
+    text-align: center;
+  }
+  #wrapper .s_content-banner .s_banner-body .s-text br {
+    display: none;
+  }
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s-text {
+    text-align: left;
+  }
+  #wrapper .s_content-banner .s_banner-body .s-text br {
+    display: block;
+  }
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form .s_form-background {
@@ -80,13 +147,42 @@ h4 {
   border-radius: 15px;
 }
 
-#wrapper .s_content-banner .s_banner-body .s_body-form h3 {
-  text-align: center;
-  margin: 40px 0px 20px 0px;
+@media (min-width: 20em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form h3 {
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 46.25em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form h3 {
+    font-size: 1.75rem;
+    margin: 40px 0px 20px 0px;
+  }
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form h3 {
+    text-align: center;
+  }
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form form {
-  padding: 40px;
+  margin: 15px 15px;
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form form {
+    padding: 20px;
+    margin: 0px 0px;
+  }
+}
+
+@media (min-width: 81.25em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form form {
+    padding: 40px;
+  }
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form form .input-group {
@@ -210,12 +306,18 @@ h4 {
   margin: 0 auto;
   display: block;
   opacity: 0.8;
-  margin-top: 60px;
+  margin-top: 00px;
   font-size: 20px;
   padding-top: 8px;
   -webkit-transition: ease 0.5s;
   -o-transition: ease 0.5s;
   transition: ease 0.5s;
+}
+
+@media (min-width: 61.25em) {
+  #wrapper .s_content-banner .s_banner-body .s_body-form form button {
+    margin-top: 60px;
+  }
 }
 
 #wrapper .s_content-banner .s_banner-body .s_body-form form button:hover {
@@ -234,6 +336,12 @@ h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (min-width: 20em) {
+  #wrapper .s_content-center {
+    margin: 15px 0px;
+  }
 }
 
 #wrapper .s-content_separator {
@@ -877,4 +985,10 @@ h4 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   visibility: visible;
+}
+
+@media (min-width: 20em) {
+  .element {
+    background-color: red;
+  }
 }
